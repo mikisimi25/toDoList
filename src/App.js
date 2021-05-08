@@ -1,4 +1,3 @@
-import check from './check.png';
 import './App.scss';
 import React,{Component} from 'react';
 import Task from './Task/Task';
@@ -14,6 +13,7 @@ class App extends Component {
         <h1>TO DO LIST</h1>
         <FormTask />
         <ul>
+          <h1>Desarrollo</h1>
           {task}
         </ul>
       </main>
